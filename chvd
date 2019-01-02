@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+wget `curl $1 | grep 'itemprop="contentUrl' | grep -Eo 'href="[^"]*.mp4' | cut -d\" -f2-`
