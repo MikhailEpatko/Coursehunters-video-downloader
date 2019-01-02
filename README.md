@@ -5,6 +5,7 @@ Shell-script to download video from coursehunters.net
 ## HowTo:
 
 1. Copy script into /usr/bin/:
+
   `sudo cp ./chvd /usr/bin/`
 
 2. Make your file executable:
